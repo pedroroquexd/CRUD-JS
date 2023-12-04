@@ -7,18 +7,19 @@
   font-size: 1rem;
   cursor: pointer;
   transition: box-shadow .6s ease;
+   border-radius: 25px; /* Arredonda os cantos dos botões */
 }
 
 .button.blue {
-  background-color: #1FB6FF;
+  background-color: #b22222;
 }
 
 button.green {
-  background-color: #13CE66;
+  background-color: #006400;
 }
 
 button.red {
-  background-color: #FF4949;
+  background-color: #B22222;
 }
 
 .button:hover {

@@ -1,34 +1,41 @@
 * {
+
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border-radius: 10px; /* Arredonda os cantos dos botões */
+  
 }
 
 :root {
-  --primary-color: #FFBA00;
-  --secundary-color: #FFF1CC;
-  --shadow-color: #CCC;
+  --primary-color: #8B0000;
+  --secundary-color: #800000;
+  --shadow-color: black;
   --text-color: #FFF;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: 'karla', sans-serif;
-  position: relative;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ font-family: 'karla', sans-serif;
+ position: relative;
+ background: linear-gradient(360deg, #1a1a1a 0%, #8B0000 80%); /* Gradiente de fundo */
+ color: var(--text-color);
 }
 
 header {
-  background-color: var(--primary-color);
-  height: 70px;
-  text-align: center;
-  line-height: 70px;
-  box-shadow: 0 1px 2px var(--shadow-color);
+ background-color: rgba(26, 26, 26, 0.0); /* Cor de fundo cinza escuro com 0% de opacidade */
+ height: 70px;
+ text-align: center;
+ line-height: 70px;
+ box-shadow: none; /* Remove a sombra */
+ border: none; /* Remove a borda */
 }
 
+
 .header-title {
-  color: black;
+  color: #FFFAFA;
   font-size: 2rem;
 }
 
